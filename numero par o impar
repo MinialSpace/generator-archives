@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace Practica_CSharp_AlirikBacon
+{
+internal class Program
+{
+static void Main(string[] args)
+{
+int resto;
+Console.WriteLine("Para saber sí un número ENTERO es par o impar
+introduce el valor ya sea negativo o positivo: ");
+int x = Convert.ToInt32(Console.ReadLine());
+resto = x % 2;
+if (resto == 0)
+{
+Console.WriteLine("El número es par");
+}
+else
+{
+Console.WriteLine("El número es impar");
+}
+}
+}
+}
